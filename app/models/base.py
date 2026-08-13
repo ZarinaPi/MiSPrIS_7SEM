@@ -1,7 +1,8 @@
 """
 Базовые настройки SQLAlchemy.
+Импортируем db из основного приложения для избежания дублирования.
 """
 
-from flask_sqlalchemy import SQLAlchemy
+from app import db
 
-db = SQLAlchemy()
+__all__ = ['db']

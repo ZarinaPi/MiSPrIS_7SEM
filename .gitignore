@@ -1,4 +1,7 @@
 ```
+# Database
+instance/database.db
+
 # Python
 __pycache__/
 *.pyc
@@ -9,36 +12,23 @@ env/
 venv/
 .venv/
 .ENV
-.ENV.local
 .env
-.env.local
-.env.*
-.venv.bak/
-pip-log.txt
-pip-delete-this-directory.txt
-.tox/
-.coverage
-.coverage.*
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-*.log
-.git/modules/
+*.env
+*.env.*
 .pytest_cache/
-.hypothesis/
+.mypy_cache/
+.coverage
+htmlcov/
 
-# Database
-instance/database.db
+# Logs
+*.log
 
-# IDE
-.vscode/
-.idea/
-*.swp
-*.swo
-*.tmp
-
-# OS
+# OS generated files
 .DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
 ```
